@@ -1,0 +1,12 @@
+1. inditifier
+2. summary
+3. description 
+4. steps to reproduce
+5. reproducibility
+6. severity
+7. priority
+8. symptom
+9. workaround
+10. comments
+11. attachments
+
