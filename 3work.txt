@@ -31,7 +31,7 @@ vim bug_reports.txt
 4. Запушить структуру багрепорта на внешний репозиторий
 git add .
 git commit -m "structure of bugreport"
-git push
+git push --set-upsteram origin bug_reports
 
 5. Вмержить ветку Bag Reports в Main
 
@@ -55,7 +55,7 @@ vim checklist.txt
 8. name of test
 
 8. Запушить структуру на внешний репозиторий
-git push 
+git push --set-upstream origin cheklists
 
 9. На внешнем репозитории сделать Pull Request ветки CheckLists в main
 10. Синхронизировать Внешнюю и Локальную ветки Main
