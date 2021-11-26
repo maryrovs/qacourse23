@@ -1,0 +1,92 @@
+11-26 23:44:13.834  1296  3062 W XSpaceManagerService: checkXSpaceControl, from:com.miui.home, to:com.android.todolist, with act:android.intent.action.MAIN, callingUserId:0, toUserId:0
+11-26 23:44:13.835  1296  3062 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.todolist/.MainActivity bnds=[842,1046][1010,1214] (has extras)} from uid 10033
+11-26 23:44:13.875  1296  1323 D Boost   : hostingType=activity, hostingName={com.android.todolist/com.android.todolist.MainActivity}, callerPackage=com.miui.home, isSystem=true, isBoostNeeded=false.
+11-26 23:44:13.875  1296  1323 I ActivityManager: Start proc 24164:com.android.todolist/u0a280 for activity {com.android.todolist/com.android.todolist.MainActivity} caller=com.miui.home
+11-26 23:44:14.495 24164 24164 W Looper  : Slow Looper main: Activity com.android.todolist/.MainActivity is 565ms late (wall=0ms running=0ms ClientTransaction{ callbacks=[android.app.servertransaction.TopResumedActivityChangeItem] }) because of 3 msg, msg 2 took 298ms (seq=2 late=1ms h=android.app.ActivityThread$H w=110), msg 3 took 267ms (seq=3 late=298ms h=android.app.ActivityThread$H w=159)
+11-26 23:44:14.520  1296  3596 I WindowManager: Relayout Window{a210b73 u0 com.android.todolist/com.android.todolist.MainActivity}: oldVis=4 newVis=0 focusMayChange = true
+11-26 23:44:14.609  1296  1316 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{b129c21 u0 com.android.todolist/.MainActivity t4522} time:1328551589
+11-26 23:46:49.677  1296  1833 I WindowManager: Relayout Window{a210b73 u0 com.android.todolist/com.android.todolist.MainActivity}: oldVis=4 newVis=0 focusMayChange = true
+11-26 23:46:50.133  1296  1833 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{b129c21 u0 com.android.todolist/.MainActivity t4522} time:1328707113
+11-26 23:51:05.253  1296  1685 V ActivityManager: Death received in com.android.server.am.ActivityManagerService$AppDeathRecipient@3ea3b83 for thread android.os.BinderProxy@32f7100, mPid:24164,mApp:ProcessRecord{3b457af 24164:com.android.todolist/u0a280}
+11-26 23:51:05.254  1296  1833 I WindowManager: WIN DEATH: Window{a210b73 u0 com.android.todolist/com.android.todolist.MainActivity}
+11-26 23:51:05.262  1296  1685 I ActivityManager: Process com.android.todolist (pid 24164) has died: cch+20 CAC 
+11-27 00:02:52.914 20121 20121 D Launcher.CellLayout: touch item:ShortcutInfo, id=107, itemType=0, user=UserHandle{0}, mIconType=0, pkgName=com.android.todolist, className=com.android.todolist.MainActivity, screenId=3, container=-100, cellX=3, cellY=3, spanX=1, spanY=1, isLandscapePos=false
+11-27 00:02:52.985  1296  1481 W XSpaceManagerService: checkXSpaceControl, from:com.miui.home, to:com.android.todolist, with act:android.intent.action.MAIN, callingUserId:0, toUserId:0
+11-27 00:02:52.986  1296  1481 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.todolist/.MainActivity bnds=[843,1048][1011,1216] (has extras)} from uid 10033
+11-27 00:02:52.999  1296  1481 D PowerHalWrapper: <amsBoostResume> last:com.miui.home, next:com.android.todolist 
+11-27 00:02:53.008  1296  1315 D PowerHalWrapper: amsBoostProcessCreate package:com.android.todolist 
+11-27 00:02:53.009  1296  1316 D ViewRootImpl[todolist]: hardware acceleration = false , fakeHwAccelerated = true, sRendererDisabled = false, forceHwAccelerated = false, sSystemRendererDisabled = false
+11-27 00:02:53.024  1296  1323 D Boost   : hostingType=activity, hostingName={com.android.todolist/com.android.todolist.MainActivity}, callerPackage=com.miui.home, isSystem=true, isBoostNeeded=false.
+11-27 00:02:53.024   581  2459 I BufferQueueConsumer: [Splash Screen com.android.todolist#0](this:0x77df053000,id:41434,api:0,p:-1,c:581) setConsumerName: Splash Screen com.android.todolist#0
+11-27 00:02:53.024   581  2459 I BufferQueueConsumer: [Splash Screen com.android.todolist#0](this:0x77df053000,id:41434,api:0,p:-1,c:581) setDefaultBufferSize: width=1 height=1
+11-27 00:02:53.024   497  1567 D OemNetd : setPidForPackage: packageName=com.android.todolist, pid=27817, pid=10280
+11-27 00:02:53.025  1296  1323 I ActivityManager: Start proc 27817:com.android.todolist/u0a280 for activity {com.android.todolist/com.android.todolist.MainActivity} caller=com.miui.home
+11-27 00:02:53.026   581  1222 I BufferQueueConsumer: [Splash Screen com.android.todolist#0](this:0x77df053000,id:41434,api:0,p:-1,c:581) setDefaultBufferSize: width=1080 height=2340
+11-27 00:02:53.029   581  1198 I BufferQueueProducer: [Splash Screen com.android.todolist#0](this:0x77df053000,id:41434,api:2,p:1296,c:581) connect(P): api=2 producer=(1296:system_server) producerControlledByApp=false
+11-27 00:02:53.064  9386  9407 I GST     : forePkg: com.android.todolist, preForePkg: com.miui.home
+11-27 00:02:53.065 25823  7036 I ProcessMonitor: onForegroundInfoChanged: ForegroundInfo{mForegroundPackageName='com.android.todolist', mForegroundUid=10280, mForegroundPid=27817, mLastForegroundPackageName='com.miui.home', mLastForegroundUid=10033, mLastForegroundPid=20121, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=0}
+11-27 00:02:53.065 25823  7036 I GameBoosterService: onForegroundInfoChanged: Cur=com.android.todolist	 last=com.miui.home
+11-27 00:02:53.065 25823  7036 D GameBoosterService: onGameStatusChange foreground:ForegroundInfo{mForegroundPackageName='com.android.todolist', mForegroundUid=10280, mForegroundPid=27817, mLastForegroundPackageName='com.miui.home', mLastForegroundUid=10033, mLastForegroundPid=20121, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=0}
+11-27 00:02:53.066  1296  1481 D PowerHalWrapper: amsBoostNotify pid:27817,activity:com.android.todolist.MainActivity, package:com.android.todolist, mProcessCreatePackcom.android.todolist 
+11-27 00:02:53.067   531   593 I libPowerHal: [perfNotifyAppState] foreground:com.android.todolist, pid:27817, uid:10280
+11-27 00:02:53.067   531   593 I powerd  : [powerd_req] POWER_MSG_NOTIFY_STATE, pc:1, com.miui.home => com.android.todolist
+11-27 00:02:53.348 27817 27817 W ndroid.todolist: type=1400 audit(0.0:1006117): avc: denied { read } for name="u:object_r:vendor_displayfeature_prop:s0" dev="tmpfs" ino=12954 scontext=u:r:untrusted_app_27:s0:c24,c257,c512,c768 tcontext=u:object_r:vendor_displayfeature_prop:s0 tclass=file permissive=0
+11-27 00:02:53.429 27817 27817 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@7a64406
+11-27 00:02:53.432 27817 27817 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@7a64406
+11-27 00:02:53.436 27817 27817 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@7a64406
+11-27 00:02:53.437 27817 27817 I chatty  : uid=10280(com.android.todolist) identical 1 line
+11-27 00:02:53.439 27817 27817 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@7a64406
+11-27 00:02:53.451 27817 27817 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@7a64406
+11-27 00:02:53.459 27817 27817 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@7a64406
+11-27 00:02:53.460 27817 27817 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@7a64406
+11-27 00:02:53.481 27817 27817 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@7a64406
+11-27 00:02:53.497 27817 27817 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@7a64406
+11-27 00:02:53.510 27817 27817 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@7a64406
+11-27 00:02:53.526 27817 27817 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@7a64406
+11-27 00:02:53.533 27817 27817 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@7a64406
+11-27 00:02:53.541 27817 27817 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@7a64406
+11-27 00:02:53.549 27817 27817 I chatty  : uid=10280(com.android.todolist) identical 1 line
+11-27 00:02:53.551 27817 27817 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@7a64406
+11-27 00:02:53.556 27817 27817 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@7a64406
+11-27 00:02:53.573   581   581 E Layer   : [Surface(name=AppWindowToken{f4bfa07 token=Token{504b846 ActivityRecord{b129c21 u0 com.android.todolist/.MainActivity t4522}}})/@0x5a14d39 - animation-leash#0] No local sync point found
+11-27 00:02:53.574   581   581 E Layer   : [Surface(name=AppWindowToken{f4bfa07 token=Token{504b846 ActivityRecord{b129c21 u0 com.android.todolist/.MainActivity t4522}}})/@0x5a14d39 - animation-leash#0] No local sync point found
+11-27 00:02:53.602   581   581 E Layer   : [Surface(name=AppWindowToken{f4bfa07 token=Token{504b846 ActivityRecord{b129c21 u0 com.android.todolist/.MainActivity t4522}}})/@0x5a14d39 - animation-leash#0] No local sync point found
+11-27 00:02:53.623 27817 27817 W Looper  : Slow Looper main: Activity com.android.todolist/.MainActivity is 421ms late (wall=0ms running=0ms ClientTransaction{ callbacks=[android.app.servertransaction.TopResumedActivityChangeItem] }) because of 2 msg, msg 1 took 285ms (seq=2 late=2ms h=android.app.ActivityThread$H w=110), msg 2 took 268ms (seq=3 late=153ms h=android.app.ActivityThread$H w=159)
+11-27 00:02:53.630 20121 20121 D RecentsImpl: mActivityStateObserver com.android.todolist.MainActivity
+11-27 00:02:53.643  1296  2358 I WindowManager: Relayout Window{2230804 u0 com.android.todolist/com.android.todolist.MainActivity}: oldVis=4 newVis=0 focusMayChange = true
+11-27 00:02:53.643   581  1222 I BufferQueueConsumer: [com.android.todolist/com.android.todolist.MainActivity#0](this:0x77e32d6000,id:41435,api:0,p:-1,c:581) setConsumerName: com.android.todolist/com.android.todolist.MainActivity#0
+11-27 00:02:53.643   581  1222 I BufferQueueConsumer: [com.android.todolist/com.android.todolist.MainActivity#0](this:0x77e32d6000,id:41435,api:0,p:-1,c:581) setDefaultBufferSize: width=1080 height=2340
+11-27 00:02:53.657 27817 27838 I GED     : [GT]_getprocess name(com.android.todolist)
+11-27 00:02:53.661   581   631 I BufferQueueProducer: [com.android.todolist/com.android.todolist.MainActivity#0](this:0x77e32d6000,id:41435,api:1,p:27817,c:581) connect(P): api=1 producer=(27817:com.android.todolist) producerControlledByApp=false
+11-27 00:02:53.664 27817 27817 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@7a64406
+11-27 00:02:53.676 27817 27817 I chatty  : uid=10280(com.android.todolist) identical 4 lines
+11-27 00:02:53.677 27817 27817 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@7a64406
+11-27 00:02:53.680 27817 27817 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@7a64406
+11-27 00:02:53.696 27817 27817 I chatty  : uid=10280(com.android.todolist) identical 9 lines
+11-27 00:02:53.698 27817 27817 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@7a64406
+11-27 00:02:53.726  1296  1316 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{b129c21 u0 com.android.todolist/.MainActivity t4522} time:1329650344
+11-27 00:02:53.727  1296  1321 I ActivityTaskManager: Displayed com.android.todolist/.MainActivity: +741ms
+11-27 00:02:53.728  1296  1316 D View    : [Warning] assignParent to null: this = DecorView@21a6736[todolist]
+11-27 00:02:53.728   581  1222 I BufferQueueProducer: [Splash Screen com.android.todolist#0](this:0x77df053000,id:41434,api:2,p:1296,c:581) disconnect(P): api 2
+11-27 00:02:54.064   581   581 I BufferQueue: [Splash Screen com.android.todolist#0](this:0x77df053000,id:41434,api:2,p:-1,c:-1) ~BufferQueueCore
+11-27 00:02:55.117   581  1198 I BufferQueueProducer: [com.android.todolist/com.android.todolist.MainActivity#0](this:0x77e32d6000,id:41435,api:1,p:27817,c:581) queueBuffer: fps=7.89 dur=1394.26 max=1191.67 min=6.93
+11-27 00:02:55.162 27817 27838 W RenderInspector: DequeueBuffer time out on com.android.todolist/com.android.todolist.MainActivity, count=6, avg=16 ms, max=17 ms.
+11-27 00:02:55.475 27817 27838 W RenderInspector: DequeueBuffer time out on com.android.todolist/com.android.todolist.MainActivity, count=1, avg=16 ms, max=16 ms.
+11-27 00:02:55.568 27817 27838 W RenderInspector: DequeueBuffer time out on com.android.todolist/com.android.todolist.MainActivity, count=1, avg=16 ms, max=16 ms.
+11-27 00:02:55.735 27817 27838 W RenderInspector: DequeueBuffer time out on com.android.todolist/com.android.todolist.MainActivity, count=1, avg=16 ms, max=16 ms.
+11-27 00:02:56.120   581  1222 I BufferQueueProducer: [com.android.todolist/com.android.todolist.MainActivity#0](this:0x77e32d6000,id:41435,api:1,p:27817,c:581) queueBuffer: fps=54.83 dur=1003.14 max=32.76 min=1.47
+11-27 00:02:56.384 27817 27838 W RenderInspector: DequeueBuffer time out on com.android.todolist/com.android.todolist.MainActivity, count=1, avg=16 ms, max=16 ms.
+11-27 00:02:57.134   581  1222 I BufferQueueProducer: [com.android.todolist/com.android.todolist.MainActivity#0](this:0x77e32d6000,id:41435,api:1,p:27817,c:581) queueBuffer: fps=54.28 dur=1013.24 max=19.16 min=17.69
+11-27 00:02:57.267 27817 27838 W RenderInspector: DequeueBuffer time out on com.android.todolist/com.android.todolist.MainActivity, count=1, avg=16 ms, max=16 ms.
+11-27 00:02:57.369 27817 27817 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@7a64406
+11-27 00:02:57.370 27817 27817 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@7a64406
+11-27 00:02:57.503   581  2459 I BufferQueueConsumer: [com.android.todolist/com.android.todolist.MainActivity#1](this:0x77deedd800,id:41436,api:0,p:-1,c:581) setConsumerName: com.android.todolist/com.android.todolist.MainActivity#1
+11-27 00:02:57.503   581  2459 I BufferQueueConsumer: [com.android.todolist/com.android.todolist.MainActivity#1](this:0x77deedd800,id:41436,api:0,p:-1,c:581) setDefaultBufferSize: width=177 height=177
+11-27 00:02:57.505   581   633 I BufferQueueConsumer: [com.android.todolist/com.android.todolist.MainActivity#1](this:0x77deedd800,id:41436,api:0,p:-1,c:581) setDefaultBufferSize: width=1200 height=771
+11-27 00:02:57.521   581  1222 I BufferQueueProducer: [com.android.todolist/com.android.todolist.MainActivity#1](this:0x77deedd800,id:41436,api:1,p:27817,c:581) connect(P): api=1 producer=(27817:com.android.todolist) producerControlledByApp=false
+11-27 00:02:57.613 27817 27838 W RenderInspector: DequeueBuffer time out on com.android.todolist/com.android.todolist.MainActivity, count=1, avg=16 ms, max=16 ms.
+11-27 00:02:59.078   581  1222 I BufferQueueProducer: [com.android.todolist/com.android.todolist.MainActivity#1](this:0x77deedd800,id:41436,api:1,p:27817,c:581) queueBuffer: fps=2.04 dur=1468.09 max=1445.18 min=8.75
+11-27 00:02:59.319 27817 27817 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@7a64406
+11-27 00:02:59.323 27817 27817 D ForceDarkHelper: updateByCheckExcludeList: pkg: com.android.todolist activity: com.android.todolist.MainActivity@7a64406
+11-27 00:02:59.335   581  2459 I BufferQueueProducer: [com.android.todolist/com.android.todolist.MainActivity#1](this:0x77deedd800,id:41436,api:1,p:27817,c:581) disconnect(P): api 1
+11-27 00:02:
